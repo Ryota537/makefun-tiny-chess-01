@@ -1,0 +1,5 @@
+# engine.py is the readable source for main.py. It must NOT be committed:
+# the repo snapshot cap is 8192 bytes and main.py + LICENSE + README
+# already use most of it. The packer records engine.py in
+# ~/.makefun/compress.json; `makefun bundle` sends it beside the sessions.
+engine.py
